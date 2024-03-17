@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 72px;
-    padding: 14px;
+    padding: 24px;
 }
 
 .darkerText {
@@ -36,6 +36,7 @@ footer {
 
 p {
     font-size: 1.05em;
+    padding-bottom: 24px;
 }
 
 header {
@@ -66,6 +67,7 @@ section,
 .nameContainer {
     display: flex;
     flex-direction: column;
+    gap: 24px;
 }
 
 main {
@@ -78,7 +80,7 @@ section {
 }
 
 .nameContainer {
-    gap: 8px;
+    gap: 14px;
 }
 
 .statsContainer {
@@ -92,6 +94,7 @@ section {
     border-radius: 100%;
     max-width: 114px;
     overflow: hidden;
+
 }
 
 .imgContainer img {
@@ -103,7 +106,7 @@ section {
 .stats {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;
 }
 
 .stats>div {
